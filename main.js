@@ -279,7 +279,6 @@ const closeGCCommand = require('./commands/closegc');
 const openGCCommand = require('./commands/opengc');
 const killAllCommand = require('./commands/killall');
 const linkCommand = require('./commands/link');
-const hijackGCCommand = require('./commands/hijackgc');
 const { 
     handleAntiGroupMentionCommand, 
     handleGroupMentionDetection 
@@ -929,9 +928,6 @@ case userMessage === `${prefix}rejectall`:
                 break;
             case userMessage === `${prefix}link`:
                 await linkCommand(sock, chatId, message, senderId);
-                break;
-            case userMessage === `${prefix}hijackgc`:
-                await hijackGCCommand(sock, chatId, message, senderId);
                 break;
             case userMessage.startsWith(`${prefix}antisticker`):
                 await handleAntiStickerCommand(sock, chatId, message, senderId);

@@ -102,7 +102,7 @@ const generateMenu = (pushname, currentMode, hostName, ping, uptimeFormatted, pr
 
     // Group Menu
     menu += `┏❐ 《 *GROUP MENU* 》 ❐\n`;
-    menu += `┃├◆ .promote\n┃├◆ .demote\n┃├◆ .groupstatus\n┃├◆ .settings\n┃├◆ .welcome\n┃├◆ .setgpp\n┃├◆ .getgpp\n┃├◆ .listadmin\n┃├◆ .goodbye\n┃├◆ .tagnoadmin\n┃├◆ .tag\n┃├◆ .antilink\n┃├◆ .set welcome\n┃├◆ .listadmin\n┃├◆ .groupinfo\n┃├◆ .admins\n┃├◆ .warn\n┃├◆ .revoke\n┃├◆ .resetlink\n┃├◆ .open\n┃├◆ .close\n┃├◆ .mention\n┃├◆ .killall\n┃├◆ .closegc\n┃├◆ .opengc\n┃├◆ .antisticker\n┃├◆ .antiphoto\n┃├◆ .jid\n┃├◆ .chjid\n┃├◆ .antipromote\n┃├◆ .antidemote\n┃├◆ .antigroupmention\n┃├◆ .link\n┃├◆ .hijackgc\n┃├◆ .creategroup\n`;
+    menu += `┃├◆ .promote\n┃├◆ .demote\n┃├◆ .groupstatus\n┃├◆ .settings\n┃├◆ .welcome\n┃├◆ .setgpp\n┃├◆ .getgpp\n┃├◆ .listadmin\n┃├◆ .goodbye\n┃├◆ .tagnoadmin\n┃├◆ .tag\n┃├◆ .antilink\n┃├◆ .set welcome\n┃├◆ .listadmin\n┃├◆ .groupinfo\n┃├◆ .admins\n┃├◆ .warn\n┃├◆ .revoke\n┃├◆ .resetlink\n┃├◆ .open\n┃├◆ .close\n┃├◆ .mention\n┃├◆ .killall\n┃├◆ .closegc\n┃├◆ .opengc\n┃├◆ .antisticker\n┃├◆ .antiphoto\n┃├◆ .jid\n┃├◆ .chjid\n┃├◆ .antipromote\n┃├◆ .antidemote\n┃├◆ .antigroupmention\n┃├◆ .link\n┃├◆ .creategroup\n`;
     menu += `┗❐\n\n`;
 
     // AI Menu
